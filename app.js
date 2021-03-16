@@ -62,8 +62,6 @@ async function curatedPhotos() {
   generatePictures(data);
 }
 
-//curated photos orignal = v1/curated?per_page=16
-
 async function searchPhotos(query) {
   currentSearch = query;
   clear();
